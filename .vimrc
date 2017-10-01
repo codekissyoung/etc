@@ -1,21 +1,21 @@
 """"""""""""""""""
 "                "
-"  vimrc文档语法  "
+" vimrc文档语法  "
 "                "
 "                "
 """"""""""""""""""
-" <C-n>     同时按 <Ctrl> 和 n
-" g<C-]>    先按g ，然后同时按 <Ctrl> 和 ]
-" <C-r>0    同时按 <Ctrl> 和 r ,然后再按0
+" <C-n>             同时按 <Ctrl> 和 n
+" g<C-]>            先按g ，然后同时按 <Ctrl> 和 ]
+" <C-r>0            同时按 <Ctrl> 和 r ,然后再按0
 " <C-w><C-=>        同时按<Ctrl> 和w ，然后再同时按下<Ctrl>和=
-" <Esc>     退出键
-" <CR>      回车键 也写作 <Enter>
-" <Ctrl>    控制键
-" <Tab>     制表键
-" <Shift>   切换键
-" <S-Tab>   同时按 <Shift> 和 <Tab> 键
-" <Up>      按上光标键
-" <Down>    按下光标键
+" <Esc>             退出键
+" <CR>              回车键 也写作 <Enter>
+" <Ctrl>            控制键
+" <Tab>             制表键
+" <Shift>           切换键
+" <S-Tab>           同时按 <Shift> 和 <Tab> 键
+" <Up>              按上光标键
+" <Down>            按下光标键
 
 set nu
 set encoding=utf-8
