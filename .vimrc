@@ -31,15 +31,23 @@ set hlsearch                " 高亮查找项
 set incsearch               " 查找跟随
 set ignorecase              " 查找时忽略大小写
 
+" 禁用vi兼容模式
+set nocompatible
+" 激活内置插件
+filetype plugin on
+
 " 使用 vimbundle 插件管理器
-set nocompatible              " be iMproved, required
-filetype off                  " required
+set nocompatible
+filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'https://github.com/scrooloose/nerdtree.git'
-call vundle#end()            " required
-filetype plugin indent on    " required
+
+call vundle#end()
+filetype plugin indent on
+" vimbundle 插件管理器配置结束
 
 " 文件树插件绑定快捷键 Ctrl ＋t 开启
 map <C-t> :NERDTreeToggle<CR>
