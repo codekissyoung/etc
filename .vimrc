@@ -44,6 +44,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'https://github.com/scrooloose/nerdtree.git'
+Plugin 'https://github.com/vim-utils/vim-man.git'
 
 call vundle#end()
 filetype plugin indent on
