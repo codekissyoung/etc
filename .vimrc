@@ -20,13 +20,15 @@
 set nu
 set encoding=utf-8
 set fdm=marker
-set autoindent
-set smartindent
-set tabstop=4
-set expandtab
-set shiftwidth=4 "每次shift+<移动4格
+
+set tabstop=4                   " 设置 Tab 的宽度
+set shiftwidth=4                " 每行的缩进深度 设置跟 Tab 的宽度一样 每次shift+<移动4格
+set expandtab                   " 设置 Tab 展开为空格
+set cindent                     " 采用 c 风格缩进
+
 set list
 set listchars=tab:>-,trail:-,extends:#,nbsp:-
+
 set hlsearch                " 高亮查找项
 set incsearch               " 查找跟随
 set ignorecase              " 查找时忽略大小写
@@ -52,5 +54,4 @@ filetype plugin indent on
 
 " 文件树插件绑定快捷键 Ctrl ＋t 开启
 map <C-t> :NERDTreeToggle<CR>
-
 
