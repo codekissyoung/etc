@@ -48,6 +48,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'https://github.com/scrooloose/nerdtree.git'
 Plugin 'https://github.com/vim-utils/vim-man.git'
 
+Plugin 'godlygeek/tabular'
+" Plugin 'plasticboy/vim-markdown'
+
 call vundle#end()
 filetype plugin indent on
 " vimbundle 插件管理器配置结束
